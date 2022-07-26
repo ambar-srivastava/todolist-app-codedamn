@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+input {
+  margin: 1rem;
+  padding: 0.5rem 0.7rem;
+  outline: none;
+  border: 0.05rem solid rgb(77, 98, 188);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  outline: none;
+  border: 0.05rem solid coral;
+  border-radius: 2px;
+  color: white;
+  background-color: coral;
+  margin: 0 10px;
+}
+
+ul {
+  display: grid;
+  place-items: center;
+}
+
+li {
+  font-family: "Gilroy";
+  list-style: none;
+  width: 300px;
+  height: 40px;
+  border-radius: 2px;
+  padding: 10px 0;
+  background-color: rgb(60, 128, 93);
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.tasks {
+  display: flex;
+  align-items: center;
+}
